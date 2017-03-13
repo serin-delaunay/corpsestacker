@@ -31,6 +31,7 @@ class Game(object):
         self.stop = False
         self.restart = False
     def intro(self):
+        blt.clear()
         blt.print_(0,0,
 """Move: WASD/Arrow keys
 Attack: WASD/Arrow keys
@@ -186,7 +187,6 @@ and trapped with the memory of your own trial.
                 self.restart = True
             if kp in [blt.TK_CLOSE, blt.TK_ESCAPE, blt.TK_R]:
                 break
-        blt.close()
         self.stop = True
     def lose(self):
         blt.clear()
@@ -214,7 +214,6 @@ You stacked {0} out of 10 corpses.
                 self.restart = True
             if kp in [blt.TK_CLOSE, blt.TK_ESCAPE, blt.TK_R]:
                 break
-        blt.close()
         self.stop = True
 
 if __name__ == '__main__':
@@ -224,5 +223,3 @@ if __name__ == '__main__':
         if not game.restart:
             break
     blt.close()
-
-blt.close()

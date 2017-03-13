@@ -1,10 +1,11 @@
-# corpsestacker
-7DRL 2017
+# Corpse Stacker
+7DRL 2017 entry. Stack zombie corpses. Don't get eaten.
+![Screenshot](./corpse stacker.PNG)
 
 # How to play
 
 0. Install Python 3 ([python.org](https://www.python.org/downloads/))
-0. Clone this repository: 
+0. Clone this repository (or unzip the archive): 
     ```
     git clone https://github.com/serin-delaunay/corpsestacker.git
     ```

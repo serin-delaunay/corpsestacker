@@ -13,7 +13,6 @@ class Actor(object):
 
 class Game(object):
     def __init__(self):
-        blt.open()
         self.width = 10
         self.height = 10
         self.size = vec(10,10)
@@ -217,6 +216,7 @@ You stacked {0} out of 10 corpses.
         self.stop = True
 
 if __name__ == '__main__':
+    blt.open()
     while True:
         game = Game()
         game.run()

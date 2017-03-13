@@ -48,4 +48,4 @@ If there are no empty border tiles, the new zombie is not placed.
 
 ## I think this game is impossible to win.
 
-For all I know you, might be right! If you have a mathematical proof that it's impossible, I'd be interested to see it.
+This game can be won.

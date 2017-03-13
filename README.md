@@ -1,4 +1,7 @@
 # Corpse Stacker
+
+https://github.com/serin-delaunay/corpsestacker
+
 7DRL 2017 entry. Stack zombie corpses. Don't get eaten.
 
 ![Screenshot](./corpse stacker.PNG)

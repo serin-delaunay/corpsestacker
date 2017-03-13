@@ -1,5 +1,7 @@
 # Corpse Stacker FAQ
 
+https://github.com/serin-delaunay/corpsestacker
+
 ## What are the symbols on screen?
 
 `@` is you. You should try to stay alive.

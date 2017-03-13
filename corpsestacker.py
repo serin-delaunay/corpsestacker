@@ -17,7 +17,7 @@ class Game(object):
         self.width = 10
         self.height = 10
         self.size = vec(10,10)
-        blt.set('window:size={0}x{1}'.format(self.size.x*3, self.size.y))
+        blt.set('window:title='Corpse Stacker',size={0}x{1}'.format(self.size.x*3, self.size.y))
         blt.set('font: UbuntuMono-R.ttf, size=24')
         self.height_map = self.make_grid(0)
         self.player = Actor()

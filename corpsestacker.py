@@ -132,7 +132,7 @@ Aim: Stack 10 corpses!""")
         self.set_grid_item(self.height_map, position,
                            self.get_grid_item(self.height_map, position) + 1)
     def calculate_score(self):
-        return max(max(self.height_map))
+        return max(max(row) for row in self.height_map)
     def get_grid_item(self, grid, position):
         return grid[position.y][position.x]
     def set_grid_item(self, grid, position, value):

@@ -201,9 +201,11 @@ and as you black out you can almost
 see the rest of the zombies
 shambling towards their next meal.
 
+You stacked {0} out of 10 corpses.
+
 *** Press Escape to exit ***
 *** Press R to restart ***
-""",
+""".format(self.calculate_score()),
                    blt.state(blt.TK_WIDTH),blt.state(blt.TK_HEIGHT),blt.TK_ALIGN_CENTER)
         blt.refresh()
         while True:
@@ -222,6 +224,5 @@ if __name__ == '__main__':
         if not game.restart:
             break
     blt.close()
-    print(game.turn_number)
 
 blt.close()

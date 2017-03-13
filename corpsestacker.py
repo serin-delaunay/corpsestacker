@@ -94,8 +94,9 @@ Aim: Stack 10 corpses!""")
             elif kp in [blt.TK_SPACE, blt.TK_PERIOD]:
                 moved = True
             elif kp == blt.TK_R:
+                pass
                 # disable in normal play
-                self.increment_height(self.player.position)
+                #self.increment_height(self.player.position)
     def enemy_move(self, enemy):
         directions = list(filter(lambda xy: self.check_move(enemy, xy),
                                  [vec(0,-1),vec(0,1),vec(-1,0),vec(1,0)]))

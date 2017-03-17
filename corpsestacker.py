@@ -204,6 +204,9 @@ You stacked {0} out of 10 corpses.
 
 *** Press Escape to exit ***
 *** Press R to restart ***
+
+Stuck?
+See FAQ.md for spoilers!
 """.format(self.calculate_score()),
                    blt.state(blt.TK_WIDTH),blt.state(blt.TK_HEIGHT),blt.TK_ALIGN_CENTER)
         blt.refresh()

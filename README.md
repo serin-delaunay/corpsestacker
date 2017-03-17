@@ -25,3 +25,8 @@ https://github.com/serin-delaunay/corpsestacker
     ```
     python corpsestacker.py
     ```
+
+# Stuck?
+
+The game mechanics are simple enough to deduce from experimentation,
+but if you need more information, check out FAQ.md.

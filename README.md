@@ -8,6 +8,16 @@ https://github.com/serin-delaunay/corpsestacker
 
 # How to play
 
+## Windows
+
+0. Download a [release](https://github.com/serin-delaunay/corpsestacker/releases) from Github.
+
+0. Unzip.
+
+0. Run corpsestacker.exe.
+
+## Linux, Mac OS, Windows
+
 0. Install Python 3 ([python.org](https://www.python.org/downloads/))
 0. Clone this repository (or unzip the archive): 
     ```
